@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Vue Hello</title>
+</head>
+<body>
+
+  <!-- wrapper -->
+  <div class="wrapper" id="app">
+
+    <!-- h1 con buttoni -->
+    <h1 :class="classe">{{messaggio}}</h1>
+    <button class="btn-red" @click="cambiaColore('red')">Rosso</button>
+    <button class="btn-green" @click="cambiaColore('green')">Verde</button>
+    <!-- /h1 con buttoni -->
+
+    <!-- inputs -->
+    <input type="testo" placeholder="Scrivi qualcosa e premi invio!" @keyup.enter="inputTesto" v-model="txt">
+    <br>
+
+    <input type="testo" placeholder="Scrivi red oppure green e premi invio!" @keyup.enter="inputColore" v-model="input">
+    <!-- /inputs -->
+
+    <!-- img -->
+    <img :src="ricercaImg" alt="panorama con albero">
+    <!-- /img -->
+    
+  </div>
+  <!-- /wrapper -->
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

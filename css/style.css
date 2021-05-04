@@ -1,0 +1,80 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(16, 61, 104);
+  background-color: rgb(255, 251, 202);
+}
+
+/* WRAPPER */
+.wrapper {
+  height: 270px;
+  width: 20%;
+  margin: 70px auto;
+  padding: 40px;
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(#f7ce90, #66d0f0);
+}
+
+/* BUTTONS SET */
+button {
+  cursor: pointer;
+  padding: 5px 15px ;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border-color: rgb(146, 37, 55);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0 , 0, 0.5);
+  background-color: #f7ce90;
+}
+
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.btn-red {
+  margin-right: 15px;
+}
+
+.btn-green {
+  margin-left: 15px;
+}
+
+/* INPUTS SET */
+input {
+  width: 310px;
+  padding: 5px 15px ;
+  margin-top: 20px;
+  border-radius: 10px;
+  outline: 0;
+  font-weight: bold;
+  border-color: rgb(146, 37, 55);
+  box-shadow: 1px 1px 5px 1px rgba(0, 0 , 0, 0.5);
+  background-color: #f7ce90;
+}
+
+/* IMG */
+img {
+  height: 215px;
+  margin: 65px 0 0 -37px;
+  border-radius: 10px;
+}
+
+/* COLORS */
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+
+
